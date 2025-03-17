@@ -1,7 +1,7 @@
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtUiTools import QUiLoader
 from handlers import ButtonHandlers  # Import handlers for button logic
-import resources_rc  
+import rc_resources 
 
 class MainWindow(QMainWindow):
     def __init__(self):
